@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Asegúrate de que estas variables de entorno estén configuradas
+# Make sure you have these variables
 prefix = os.getenv("PREFIX")
 token = os.getenv("TOKEN")
 

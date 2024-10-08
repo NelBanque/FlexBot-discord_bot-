@@ -10,7 +10,7 @@ class Help(commands.Cog):
         print("Help.py is ready")
     
     @commands.command()
-    async def commands(self, ctx):  # Cambiado de help a commands
+    async def commands(self, ctx): 
         await ctx.send("**Commands:**\n"
                        "- !ping: return pong\n"
                        "- !HB @someone: for giving a HB\n"
